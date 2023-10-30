@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Asp.Net_MVC.Controllers
+namespace CodeIsLife.Controllers;
+
+public class HomeController : Controller
 {
-	public class HomeController: Controller
-	{
-		public IActionResult Index() { return View(); }
-	}
+    public IActionResult Index()
+    {
+        return View();
+    }
 }
