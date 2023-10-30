@@ -11,7 +11,7 @@ namespace Asp.Net_MVC
 
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Home}/{action=Index}");
+				pattern: "{controller=Product}/{action=List}");
 			app.Run();
 		}
 	}
